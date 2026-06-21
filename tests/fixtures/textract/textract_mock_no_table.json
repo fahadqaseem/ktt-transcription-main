@@ -1,0 +1,37 @@
+{
+  "Blocks": [
+    {
+      "BlockType": "LINE",
+      "Id": "line-1",
+      "Text": "Lincoln School",
+      "Confidence": 95.0
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "line-2",
+      "Text": "Grade 3",
+      "Confidence": 95.0
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "line-3",
+      "Text": "Jane Smith",
+      "Confidence": 95.0
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "line-4",
+      "Text": "Sept 1 1923",
+      "Confidence": 95.0
+    },
+    {
+      "BlockType": "LINE",
+      "Id": "line-5",
+      "Text": "Bone Dorothy 7 10-10-09 14 no 200 Kearsarge St.",
+      "Confidence": 95.0
+    }
+  ],
+  "DocumentMetadata": {
+    "Pages": 1
+  }
+}

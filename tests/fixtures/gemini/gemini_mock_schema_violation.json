@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"header\": {\"school\": \"Lincoln\"}, \"students\": [{\"name\": \"Mary Doe\", \"age\": \"9\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "index": 0
+    }
+  ],
+  "usage_metadata": {
+    "prompt_token_count": 1290,
+    "candidates_token_count": 28,
+    "total_token_count": 1318
+  },
+  "model_version": "gemini-2.0-flash"
+}

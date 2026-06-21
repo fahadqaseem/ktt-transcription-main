@@ -1,0 +1,24 @@
+methods:
+  - name: example-provider
+    adapter: example_provider
+    config:
+      default_header:
+        school: Lincoln School
+        grade: "3"
+        teacher: Jane Smith
+        Date_of_Record: "1923-09-01"
+        schoolyear: "1923"
+        semester: Fall
+      example_rows:
+        - lastname: Doe
+          firstname: Mary
+          Sex: F
+          age: "9"
+          address: 12 Oak St
+          town: Springfield
+          comment: ""
+          days_absent: "2"
+          vaccination: "yes"
+          note: ""
+          Date_Left: ""
+          DoB: "1914-03-10"

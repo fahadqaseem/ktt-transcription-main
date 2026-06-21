@@ -1,0 +1,96 @@
+method,document_id,school,grade,teacher,Date_of_Record,schoolyear,semester,lastname,firstname,Sex,age,address,town,comment,days_absent,vaccination,note,Date_Left,DoB
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Adans,Mathew,M,11,417 Kearsarae,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Anderson,Edward St. C.,M,11,102 First,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Anderson,Jennie C.,F,12,102 First,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Baggiore,xoseph A.,M,14,103 Hecla,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,lanchette,Benjamin E.,M,12,Pewabic St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Borchgxevink,Theodore B.,M,12,117 Tamarack,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Daugharty,Pembrock W.,M,13,146 Second,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Errickson,Benjamin,M,10,448 Kearsarge,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Gries,Walter F.,M,11,Ahmeek St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Hillie,Edward V.,M,11,farm on Lake Linden Rd.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,James,Myrtle,F,a1,39 Woodlamd Ave.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Jamesx,Myrtle,F,a1,39 Woodlamd Ave.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Lajoie,Raweol x.,U,12,312 Lake Linden Ave.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,ejon,Edwin,M,13,210 Seneca,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Michaelson,Masy,F,13,UNKNOWN,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Moder,Frances G.,F,11,sirst St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Naai,Edith,F,12,Boundaay St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Pascoe,Percy,M,11,221 Pewabic,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Picchiottino,Angelo A.,M,10,216 Ahmeek St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Raley,Austin C.,M,12,1314 Ahmeek St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Ristell,Arthur,M,3,Iroquois St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Rolanso,Mary C.,F,12,109 Kearsarge,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Spence,Catherine s.,F,11,corner 7th & Boundary,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Saanson,Earl G.,M,11,Boundary,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5A||1904-06-17_00:00:00,John Duncan,5A,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Wearne,Thelma C.,F,10,332 Kearsarge,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Crothers,Lottie,F,11,302 Beundary,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Curnow,Charles,M,1,533 Florida,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Gallassero,James,M,12,221 Tamarack,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Gipp,Mary G.,F,11,432 Hecla,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Guettle,Violet,F,4,Florida,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Heikka,Linda M.,F,10,Iroquois St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Hoatson,Margarot A.,F,10,Pewabic St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Joxnson,SelmasU,F,13,236 Flerida,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Karnen,Ella,F,11,416 Iroquois,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Korteniemi,Julia A,F,11,449 Tamarack,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Larson,Charles J.,M,12,Iroquois St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Laukks,Emma L.,F,12,520 Tamarack,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Lenten,Jeasie,F,a1,Florida,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Moraom,Lena,F,a1,310 Lake Linden Ave.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Nankervis,Charles,M,13,Seneca St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Norbom,Harriet c.,F,1a,504 Iroquois,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Palsa,Aina L.,F,10,526 Pewabic,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Palsax,Aina L.,F,10,526 Pewabic,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Peerson,Elin V.,F,12,Txird St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Reymolds,Mabel,F,12,400 Pewabic,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Sa1o,LibbieA.,F,10,Florida St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Skrogstadt,Edward,M,1a,125 Tamarack,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Solomonson,Mary,F,13,Pewabic St.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||5B||1904-06-17_00:00:00,John Duncan,5B,Louise F. Farnham,1904-06-17 00:00:00,1904,B,Wennbers,Hjalmer C.,M,15,Lake Linden Ave.,Laurium,,0,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Billy,Mike,M,1a,101 Iroquois,Laurium,,2,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Billy,Sadie,F,8,101 Iroquois,Laurium,,4.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Cxpello,Fred,M,7,101 Iroquois,Laurium,,2.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Capello,sohnny,M,s,311 First St.,Laurium,,0.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Cima,Palmer,M,7,110 Hecls,Laurium,,0.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Dower,Thomas,M,9,131 Kearsarge,Laurium,,0.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Gillies,Wallace,M,6,344 Kearsarge,Laurium,,3,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Goyette,Walter,M,9,FirstsSt.,Laurium,,4,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Greon,Rey,M,8,145 Kearsarge,Laurium,,0.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Gustafson,George,M,7,132 Florida,Laurium,,2,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Hoatson,xartha,F,7,130 Iroquois,Laurium,,1.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Hunt,Mildred,F,6,1a7 Second,Laurium,,2,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Messner,Margaret,F,7,213 Tamarack,Laurium,,4.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Messner,Rosie,F,s1,213 Tamarack,Laurium,,1,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Monroe,George,M,9,314 Isle Royale,Laurium,,1.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Morrison,Cathel,M,8,118 Seneca,Laurium,,1.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Morrisonx,Cathel,M,8,118 Seneca,Laurium,,1.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Mugford,Carlotta,F,x,First St.,Laurium,,2.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Mustonen,Charley,M,7,412 Iroquois,Laurium,left in February,2,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Nelson,Ruth,F,6,124 Pewaaic,Laurium,,4,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,OxBrien,Gerald,M,7,223 Florid,Laurium,,4.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Pearson,Wilbur,M,a,334 Kearsarge,Laurium,,4,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Peterson,Lydia,F,a,506 Third,Laurium,,4.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Elizabeth Ashmun,1906-02-02 00:00:00,1906,A,Raey,Clarence,M,8,132 Tamarack,Laurium,,5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Angove,Earl,M,8,331 Kearsarge,Laurium,,20,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Biscomb,Isving,M,6,Iroquois St.,Laurium,,11.5,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Carlson,Hildegarde,F,8,15 Florida,Laurium,,24,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Gallesere,Mary,F,7,221 Tamarack,Laurium,,2,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Hendrickson,Mamie,F,x,217 Tamarack,Laurium,,16,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Hermanson,Ragnhild,M,7,221 Florida,Laurium,,8.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Jewell,Edward,M,7,Pewabic,Laurium,,7,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Johns,Joshsa,M,7,205 Iroquois,Laurium,,0,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Johnson,Verner,M,7,143 Florida,Laurium,,9.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,King,Wilbert,M,7,173 Iroauois,Laurium,,35,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,McGrath,Margaret,F,7,32 Pewabic,Laurium,,19,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,McLeod,Edwad,M,7,202 Isle oyale,Laurium,,80,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Paton,Esther,F,x,302 Florida,Laurium,,23,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Perenchio,John,M,8,First St.,Laurium,,9,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Phillips,George,M,UNKNOWN,UNKNOWN,Laurium,moved away,0,UNKNOWN,,8/16/1906,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Phillipsx,George,M,UNKNOWN,UNKNOWN,Laurium,moved away,0,UNKNOWN,,8/16/1906,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Sellberg,Russell,M,6,240 Kearsarge,Laurium,,15,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Strolle,arl,M,7,131 Iroquois,Laurium,,14.5,Y,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Trevarrew,Florence,F,8,3rd & Tamarack,Laurium,,32.5,UNKNOWN,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Trudeau,Alberx,M,6,135 Iroquois,Laurium,,1.5,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Ulseth,Ole,M,8,224 Tamarack,Laurium,,0,N,,,UNKNOWN
+Mock_Handwriting_Model_v1,John_Duncan||1A||1906-02-02_00:00:00,John Duncan,1A,Frances Gillette,1906-02-02 00:00:00,1906,A,Waters,Irene,F,UNKNOWa,UNKNOWN,Laurium,transferred to Franklin,0,UNKNOWN,,,UNKNOWN

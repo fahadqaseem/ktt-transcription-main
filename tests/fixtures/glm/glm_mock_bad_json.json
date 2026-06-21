@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-mock-glm-004",
+  "object": "chat.completion",
+  "created": 1700000003,
+  "model": "glm-4v",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{not valid json at all\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 12,
+    "total_tokens": 1332
+  }
+}

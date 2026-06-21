@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"header\":{\"school\":\"\",\"grade\":\"\",\"teacher\":\"\",\"Date_of_Record\":\"\",\"schoolyear\":\"\",\"semester\":\"\"},\"rows\":[{\"lastname\":\"\",\"firstname\":\"\",\"Sex\":\"\",\"age\":\"\",\"address\":\"\",\"town\":\"\",\"comment\":\"\",\"days_absent\":\"\",\"vaccination\":\"\",\"note\":\"page too faded to read\",\"Date_Left\":\"\",\"DoB\":\"\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "index": 0
+    }
+  ],
+  "usage_metadata": {
+    "prompt_token_count": 1290,
+    "candidates_token_count": 51,
+    "total_token_count": 1341
+  },
+  "model_version": "gemini-2.0-flash"
+}

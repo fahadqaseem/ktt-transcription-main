@@ -1,0 +1,67 @@
+header_filter_fields:
+  - school
+  - grade
+  - teacher
+  - Date_of_Record
+  - schoolyear
+  - semester
+
+custom_metrics:
+  - name: completeness
+    metric: example_completeness
+    config:
+      required_header_fields:
+        - school
+        - grade
+        - teacher
+        - Date_of_Record
+        - schoolyear
+        - semester
+      required_row_fields:
+        - lastname
+        - firstname
+        - age
+        - address
+        - town
+
+# Optional: which row fields to evaluate for exact-match accuracy (defaults to all row columns)
+evaluated_fields:
+#  - lastname
+#  - firstname
+#  - age
+
+# Optional: which fields to compute CER for (defaults to evaluated_fields)
+cer_fields:
+#  - lastname
+
+# Matching configuration:
+# - match_key_fields: which fields to use for matching rows (defaults to DEFAULT_ROW_MATCH_COLUMNS)
+# - match_strategy: 'exact' (default) or 'jaccard' for token-overlap fuzzy matching
+# - match_threshold: float between 0 and 1 used for 'jaccard' matching (default 0.5)
+match_key_fields:
+#  - lastname
+#  - firstname
+match_strategy: exact
+match_threshold: 0.5
+
+# Reporting / summary
+# The evaluation output `summary` includes a `methods` mapping where each
+# method name maps to aggregated metrics for that method. Each method entry
+# contains:
+# - `tp`, `fp`, `fn`: integers (true positives, false positives, false negatives)
+# - `precision`, `recall`, `f1`: PRF metrics (rounded to 4 decimals)
+# - `field_accuracy`: mapping from evaluated field name -> accuracy (fraction)
+#   computed over matched rows for that method. Example:
+#
+# methods:
+#   some_method:
+#     tp: 10
+#     fp: 2
+#     fn: 1
+#     precision: 0.8333
+#     recall: 0.9091
+#     f1: 0.8696
+#     field_accuracy:
+#       lastname: 0.95
+#       firstname: 1.0
+

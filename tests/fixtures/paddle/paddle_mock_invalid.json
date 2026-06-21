@@ -1,0 +1,4 @@
+{
+  "error": "this is not a list",
+  "detail": "PaddleOCR always returns a list of pages, never a dict"
+}

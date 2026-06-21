@@ -1,0 +1,52 @@
+{
+  "document_count": 3,
+  "predicted_rows": 93,
+  "expected_rows": 75,
+  "filter_status_counts": {
+    "matched": 3
+  },
+  "tp": 28,
+  "fp": 65,
+  "fn": 47,
+  "precision": 0.3011,
+  "recall": 0.3733,
+  "f1": 0.3333,
+  "field_accuracy": {
+    "lastname": 0.2,
+    "firstname": 0.2,
+    "Sex": 0.2,
+    "age": 0.2,
+    "address": 0.2,
+    "town": 0.2,
+    "comment": 0.2,
+    "days_absent": 0.2,
+    "vaccination": 0.2,
+    "note": 0.2,
+    "Date_Left": 0.2,
+    "DoB": 0.2
+  },
+  "methods": {
+    "Mock_Handwriting_Model_v1": {
+      "tp": 28,
+      "fp": 65,
+      "fn": 47,
+      "precision": 0.3011,
+      "recall": 0.3733,
+      "f1": 0.3333,
+      "field_accuracy": {
+        "lastname": 0.2,
+        "firstname": 0.2,
+        "Sex": 0.2,
+        "age": 0.2,
+        "address": 0.2,
+        "town": 0.2,
+        "comment": 0.2,
+        "days_absent": 0.2,
+        "vaccination": 0.2,
+        "note": 0.2,
+        "Date_Left": 0.2,
+        "DoB": 0.2
+      }
+    }
+  }
+}

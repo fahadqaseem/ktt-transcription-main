@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-mock-glm-002",
+  "object": "chat.completion",
+  "created": 1700000001,
+  "model": "glm-4v",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"header\":{\"school\":\"\",\"grade\":\"\",\"teacher\":\"\",\"Date_of_Record\":\"\",\"schoolyear\":\"\",\"semester\":\"\"},\"rows\":[{\"lastname\":\"\",\"firstname\":\"\",\"Sex\":\"\",\"age\":\"\",\"address\":\"\",\"town\":\"\",\"comment\":\"\",\"days_absent\":\"\",\"vaccination\":\"\",\"note\":\"page too faded to read\",\"Date_Left\":\"\",\"DoB\":\"\"}]}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 48,
+    "total_tokens": 1368
+  }
+}

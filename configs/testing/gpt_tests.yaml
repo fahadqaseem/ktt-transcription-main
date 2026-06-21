@@ -1,0 +1,25 @@
+methods:
+  - name: gpt-happy-path
+    adapter: gpt
+    config:
+      mock_fixture: gpt/gpt_mock.json
+
+  - name: gpt-missing-fields
+    adapter: gpt
+    config:
+      mock_fixture: gpt/gpt_mock_missing_fields.json
+
+  - name: gpt-schema-violation
+    adapter: gpt
+    config:
+      mock_fixture: gpt/gpt_mock_schema_violation.json
+
+  - name: gpt-truncated
+    adapter: gpt
+    config:
+      mock_fixture: gpt/gpt_mock_truncated.json
+
+  - name: gpt-bad-json
+    adapter: gpt
+    config:
+      mock_fixture: gpt/gpt_mock_bad_json.json

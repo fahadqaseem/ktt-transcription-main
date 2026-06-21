@@ -1,0 +1,785 @@
+[
+  {
+    "document_id": "John_Duncan||5A||1904-06-17_00:00:00",
+    "method": "Perfect_Ground_Truth_Baseline",
+    "filter_status": "matched",
+    "header": {
+      "Date_of_Record": "1904-06-17 00:00:00",
+      "teacher": "Louise F. Farnham",
+      "semester": "B",
+      "grade": "5A",
+      "schoolyear": "1904",
+      "school": "John Duncan"
+    },
+    "predicted_row_count": 26,
+    "expected_row_count": 26,
+    "custom_metrics": {},
+    "row_matches": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ]
+    ],
+    "row_pred_unmatched": [],
+    "row_exp_unmatched": [],
+    "tp": 26,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "field_metrics": {
+      "lastname": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "firstname": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "Sex": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "age": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "address": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "town": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "comment": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "days_absent": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "vaccination": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "note": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "Date_Left": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      },
+      "DoB": {
+        "correct": 26,
+        "total": 26,
+        "accuracy": 1.0
+      }
+    },
+    "cer_metrics": {
+      "lastname": {
+        "char_errors": 0,
+        "total_chars": 183,
+        "cer": 0.0
+      },
+      "firstname": {
+        "char_errors": 0,
+        "total_chars": 215,
+        "cer": 0.0
+      },
+      "Sex": {
+        "char_errors": 0,
+        "total_chars": 26,
+        "cer": 0.0
+      },
+      "age": {
+        "char_errors": 0,
+        "total_chars": 52,
+        "cer": 0.0
+      },
+      "address": {
+        "char_errors": 0,
+        "total_chars": 321,
+        "cer": 0.0
+      },
+      "town": {
+        "char_errors": 0,
+        "total_chars": 182,
+        "cer": 0.0
+      },
+      "comment": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "days_absent": {
+        "char_errors": 0,
+        "total_chars": 26,
+        "cer": 0.0
+      },
+      "vaccination": {
+        "char_errors": 0,
+        "total_chars": 182,
+        "cer": 0.0
+      },
+      "note": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "Date_Left": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "DoB": {
+        "char_errors": 0,
+        "total_chars": 182,
+        "cer": 0.0
+      }
+    },
+    "metadata": {
+      "baseline_test": true
+    }
+  },
+  {
+    "document_id": "John_Duncan||5B||1904-06-17_00:00:00",
+    "method": "Perfect_Ground_Truth_Baseline",
+    "filter_status": "matched",
+    "header": {
+      "school": "John Duncan",
+      "teacher": "Louise F. Farnham",
+      "schoolyear": "1904",
+      "semester": "B",
+      "Date_of_Record": "1904-06-17 00:00:00",
+      "grade": "5B"
+    },
+    "predicted_row_count": 24,
+    "expected_row_count": 24,
+    "custom_metrics": {},
+    "row_matches": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ]
+    ],
+    "row_pred_unmatched": [],
+    "row_exp_unmatched": [],
+    "tp": 24,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "field_metrics": {
+      "lastname": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "firstname": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "Sex": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "age": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "address": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "town": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "comment": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "days_absent": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "vaccination": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "note": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "Date_Left": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      },
+      "DoB": {
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0
+      }
+    },
+    "cer_metrics": {
+      "lastname": {
+        "char_errors": 0,
+        "total_chars": 172,
+        "cer": 0.0
+      },
+      "firstname": {
+        "char_errors": 0,
+        "total_chars": 170,
+        "cer": 0.0
+      },
+      "Sex": {
+        "char_errors": 0,
+        "total_chars": 24,
+        "cer": 0.0
+      },
+      "age": {
+        "char_errors": 0,
+        "total_chars": 47,
+        "cer": 0.0
+      },
+      "address": {
+        "char_errors": 0,
+        "total_chars": 275,
+        "cer": 0.0
+      },
+      "town": {
+        "char_errors": 0,
+        "total_chars": 168,
+        "cer": 0.0
+      },
+      "comment": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "days_absent": {
+        "char_errors": 0,
+        "total_chars": 24,
+        "cer": 0.0
+      },
+      "vaccination": {
+        "char_errors": 0,
+        "total_chars": 168,
+        "cer": 0.0
+      },
+      "note": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "Date_Left": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "DoB": {
+        "char_errors": 0,
+        "total_chars": 168,
+        "cer": 0.0
+      }
+    },
+    "metadata": {
+      "baseline_test": true
+    }
+  },
+  {
+    "document_id": "John_Duncan||1A||1906-02-02_00:00:00",
+    "method": "Perfect_Ground_Truth_Baseline",
+    "filter_status": "matched",
+    "header": {
+      "school": "John Duncan",
+      "Date_of_Record": "1906-02-02 00:00:00",
+      "grade": "1A",
+      "teacher": "Elizabeth Ashmun",
+      "schoolyear": "1906",
+      "semester": "A"
+    },
+    "predicted_row_count": 48,
+    "expected_row_count": 25,
+    "custom_metrics": {},
+    "row_matches": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ]
+    ],
+    "row_pred_unmatched": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "row_exp_unmatched": [],
+    "tp": 25,
+    "fp": 23,
+    "fn": 0,
+    "precision": 0.5208,
+    "recall": 1.0,
+    "f1": 0.6849,
+    "field_metrics": {
+      "lastname": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "firstname": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "Sex": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "age": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "address": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "town": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "comment": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "days_absent": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "vaccination": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "note": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "Date_Left": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      },
+      "DoB": {
+        "correct": 25,
+        "total": 48,
+        "accuracy": 0.5208
+      }
+    },
+    "cer_metrics": {
+      "lastname": {
+        "char_errors": 164,
+        "total_chars": 326,
+        "cer": 0.5031
+      },
+      "firstname": {
+        "char_errors": 135,
+        "total_chars": 282,
+        "cer": 0.4787
+      },
+      "Sex": {
+        "char_errors": 23,
+        "total_chars": 48,
+        "cer": 0.4792
+      },
+      "age": {
+        "char_errors": 35,
+        "total_chars": 62,
+        "cer": 0.5645
+      },
+      "address": {
+        "char_errors": 266,
+        "total_chars": 556,
+        "cer": 0.4784
+      },
+      "town": {
+        "char_errors": 161,
+        "total_chars": 336,
+        "cer": 0.4792
+      },
+      "comment": {
+        "char_errors": 33,
+        "total_chars": 49,
+        "cer": 0.6735
+      },
+      "days_absent": {
+        "char_errors": 47,
+        "total_chars": 98,
+        "cer": 0.4796
+      },
+      "vaccination": {
+        "char_errors": 53,
+        "total_chars": 78,
+        "cer": 0.6795
+      },
+      "note": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "Date_Left": {
+        "char_errors": 9,
+        "total_chars": 9,
+        "cer": 1.0
+      },
+      "DoB": {
+        "char_errors": 161,
+        "total_chars": 336,
+        "cer": 0.4792
+      }
+    },
+    "metadata": {
+      "baseline_test": true
+    }
+  }
+]

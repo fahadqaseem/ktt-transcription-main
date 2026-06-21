@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-mock-gpt-004",
+  "object": "chat.completion",
+  "created": 1700000003,
+  "model": "gpt-4o",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{not valid json at all\n```"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 12,
+    "total_tokens": 1494
+  },
+  "system_fingerprint": "fp_mock"
+}

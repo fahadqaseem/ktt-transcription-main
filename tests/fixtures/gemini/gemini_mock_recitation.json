@@ -1,0 +1,27 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"header\":{\"school\":\"Lincoln School\",\"grade\":\"3\",\"teacher\":\"Jane Smith\",\"Date_of_Record\":\"1923-09-01\",\"schoolyear\":\"1923\",\"semester\":\"Fall\"},\"rows\":["
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "RECITATION",
+      "index": 0,
+      "citation_metadata": {
+        "citation_sources": [
+          {"start_index": 0, "end_index": 120}
+        ]
+      }
+    }
+  ],
+  "usage_metadata": {
+    "prompt_token_count": 1290,
+    "candidates_token_count": 45,
+    "total_token_count": 1335
+  },
+  "model_version": "gemini-2.0-flash"
+}

@@ -1,0 +1,24 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [],
+        "role": "model"
+      },
+      "finish_reason": "SAFETY",
+      "index": 0,
+      "safety_ratings": [
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "LOW"
+        }
+      ]
+    }
+  ],
+  "usage_metadata": {
+    "prompt_token_count": 1290,
+    "candidates_token_count": 0,
+    "total_token_count": 1290
+  },
+  "model_version": "gemini-2.0-flash"
+}

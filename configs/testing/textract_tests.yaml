@@ -1,0 +1,46 @@
+methods:
+  - name: textract-happy-path
+    adapter: textract
+    config:
+      mock_fixture: textract/textract_mock.json
+      column_map:
+        name: 0
+        age: 1
+        DoB: 2
+        days_absent: 3
+        vaccination: 4
+        address: 5
+
+  - name: textract-missing-fields
+    adapter: textract
+    config:
+      mock_fixture: textract/textract_mock_missing_fields.json
+      column_map:
+        name: 0
+        age: 1
+        DoB: 2
+        days_absent: 3
+        vaccination: 4
+        address: 5
+
+  - name: textract-no-table
+    adapter: textract
+    config:
+      mock_fixture: textract/textract_mock_no_table.json
+
+  - name: textract-single-table
+    adapter: textract
+    config:
+      mock_fixture: textract/textract_mock_single_table.json
+      column_map:
+        name: 0
+        age: 1
+        DoB: 2
+        days_absent: 3
+        vaccination: 4
+        address: 5
+
+  - name: textract-invalid
+    adapter: textract
+    config:
+      mock_fixture: textract/textract_mock_invalid.json

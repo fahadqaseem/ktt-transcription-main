@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-mock-gpt-001",
+  "object": "chat.completion",
+  "created": 1700000000,
+  "model": "gpt-4o",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"header\":{\"school\":\"Lincoln School\",\"grade\":\"3\",\"teacher\":\"Jn. Smith\",\"Date_of_Record\":\"Sept 1 1923\",\"schoolyear\":\"1923\",\"semester\":\"Fall\"},\"rows\":[{\"lastname\":\"Doe\",\"firstname\":\"Mary\",\"Sex\":\"F\",\"age\":\"9\",\"address\":\"12 Oak St\",\"town\":\"Springfield\",\"comment\":\"\",\"days_absent\":\"2\",\"vaccination\":\"yes\",\"note\":\"\",\"Date_Left\":\"\",\"DoB\":\"Mar 10 1914\"},{\"lastname\":\"Johnsn\",\"firstname\":\"Wm.\",\"Sex\":\"M\",\"age\":\"10\",\"address\":\"47 Elm Ave\",\"town\":\"Springfield\",\"comment\":\"\",\"days_absent\":\"0\",\"vaccination\":\"yes\",\"note\":\"\",\"Date_Left\":\"\",\"DoB\":\"1913\"},{\"lastname\":\"Kowalski\",\"firstname\":\"Anna\",\"Sex\":\"F\",\"age\":\"8\",\"address\":\"3 River Rd\",\"town\":\"Millbrk.\",\"comment\":\"transf.\",\"days_absent\":\"5\",\"vaccination\":\"\",\"note\":\"moved Nov.\",\"Date_Left\":\"Nov 14 1923\",\"DoB\":\"1915\"},{\"lastname\":\"O'Brien\",\"firstname\":\"Thos.\",\"Sex\":\"M\",\"age\":\"\",\"address\":\"Unknwn\",\"town\":\"Springfield\",\"comment\":\"\",\"days_absent\":\"12\",\"vaccination\":\"no\",\"note\":\"age illeg.\",\"Date_Left\":\"\",\"DoB\":\"\"}]}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 231,
+    "total_tokens": 1713
+  },
+  "system_fingerprint": "fp_mock"
+}

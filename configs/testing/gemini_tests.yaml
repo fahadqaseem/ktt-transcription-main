@@ -1,0 +1,35 @@
+methods:
+  - name: gemini-happy-path
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock.json
+
+  - name: gemini-missing-fields
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock_missing_fields.json
+
+  - name: gemini-schema-violation
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock_schema_violation.json
+
+  - name: gemini-truncated
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock_truncated.json
+
+  - name: gemini-bad-json
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock_bad_json.json
+  
+  - name: gemini-recitation
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock_recitation.json
+  
+  - name: gemini-safety
+    adapter: gemini
+    config:
+      mock_fixture: gemini/gemini_mock_safety.json

@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"header\":{\"school\":\"Lincoln School\",\"grade\":\"3\",\"teacher\":\"Jane Smith\",\"Date_of_Record\":\"1923-09-01\",\"schoolyear\":\"1923\",\"semester\":\"Fall\"},\"rows\":[{\"lastname\":\"Doe\",\"firstname\":\"Mary\",\"Sex\":\"F\",\"age\":\"9\",\"address\":\"12 Oak"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usage_metadata": {
+    "prompt_token_count": 1290,
+    "candidates_token_count": 4096,
+    "total_token_count": 5386
+  },
+  "model_version": "gemini-2.0-flash"
+}

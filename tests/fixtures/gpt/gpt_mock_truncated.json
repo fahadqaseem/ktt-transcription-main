@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-mock-gpt-003",
+  "object": "chat.completion",
+  "created": 1700000002,
+  "model": "gpt-4o",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"header\":{\"school\":\"Lincoln School\",\"grade\":\"3\",\"teacher\":\"Jane Smith\",\"Date_of_Record\":\"1923-09-01\",\"schoolyear\":\"1923\",\"semester\":\"Fall\"},\"rows\":[{\"lastname\":\"Doe\",\"firstname\":\"Mary\",\"Sex\":\"F\",\"age\":\"9\",\"address\":\"12 Oak"
+      },
+      "finish_reason": "length",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 4096,
+    "total_tokens": 5578
+  },
+  "system_fingerprint": "fp_mock"
+}

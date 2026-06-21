@@ -1,0 +1,52 @@
+{
+  "document_count": 3,
+  "predicted_rows": 98,
+  "expected_rows": 98,
+  "filter_status_counts": {
+    "matched": 3
+  },
+  "tp": 98,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "field_accuracy": {
+    "lastname": 1.0,
+    "firstname": 1.0,
+    "Sex": 1.0,
+    "age": 1.0,
+    "address": 1.0,
+    "town": 1.0,
+    "comment": 1.0,
+    "days_absent": 1.0,
+    "vaccination": 1.0,
+    "note": 1.0,
+    "Date_Left": 1.0,
+    "DoB": 1.0
+  },
+  "methods": {
+    "Perfect_Ground_Truth_Baseline": {
+      "tp": 98,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "field_accuracy": {
+        "lastname": 1.0,
+        "firstname": 1.0,
+        "Sex": 1.0,
+        "age": 1.0,
+        "address": 1.0,
+        "town": 1.0,
+        "comment": 1.0,
+        "days_absent": 1.0,
+        "vaccination": 1.0,
+        "note": 1.0,
+        "Date_Left": 1.0,
+        "DoB": 1.0
+      }
+    }
+  }
+}

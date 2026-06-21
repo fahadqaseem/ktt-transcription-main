@@ -1,0 +1,3 @@
+school,grade,teacher,lastname,firstname,Sex,age,address,town,Date_of_Record,schoolyear,semester,comment,days_absent,vaccination,note,Date_Left,DoB
+Lincoln School,3,Jane Smith,Doe,Mary,F,9,12 Oak St,Springfield,1923-09-01,1923,Fall,,2,yes,,,1914-03-10
+Lincoln School,3,Jane Smith,Brown,John,M,8,9 Pine Ave,Springfield,1923-09-01,1923,Fall,left early,4,no,needs followup,1924-01-15,1915-07-22

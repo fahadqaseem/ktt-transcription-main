@@ -1,0 +1,4 @@
+method,document_id,filter_status,predicted_row_count,expected_row_count
+Perfect_Ground_Truth_Baseline,John_Duncan||5A||1904-06-17_00:00:00,matched,26,26
+Perfect_Ground_Truth_Baseline,John_Duncan||5B||1904-06-17_00:00:00,matched,24,24
+Perfect_Ground_Truth_Baseline,John_Duncan||1A||1906-02-02_00:00:00,matched,48,48

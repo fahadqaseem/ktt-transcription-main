@@ -1,0 +1,25 @@
+methods:
+  - name: glm-happy-path
+    adapter: glm
+    config:
+      mock_fixture: glm/glm_mock.json
+
+  - name: glm-missing-fields
+    adapter: glm
+    config:
+      mock_fixture: glm/glm_mock_missing_fields.json
+
+  - name: glm-truncated
+    adapter: glm
+    config:
+      mock_fixture: glm/glm_mock_truncated.json
+
+  - name: glm-bad-json
+    adapter: glm
+    config:
+      mock_fixture: glm/glm_mock_bad_json.json
+
+  - name: glm-schema-violation
+    adapter: glm
+    config:
+      mock_fixture: glm/glm_mock_schema_violation.json

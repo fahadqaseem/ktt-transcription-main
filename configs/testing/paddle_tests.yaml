@@ -1,0 +1,25 @@
+methods:
+  - name: paddle-happy-path
+    adapter: paddleocr
+    config:
+      mock_fixture: paddle/paddle_mock.json
+
+  - name: paddle-empty-page
+    adapter: paddleocr
+    config:
+      mock_fixture: paddle/paddle_mock_empty_page.json
+
+  - name: paddle-no-rows
+    adapter: paddleocr
+    config:
+      mock_fixture: paddle/paddle_mock_no_rows.json
+
+  - name: paddle-sparse
+    adapter: paddleocr
+    config:
+      mock_fixture: paddle/paddle_mock_sparse.json
+
+  - name: paddle-invalid
+    adapter: paddleocr
+    config:
+      mock_fixture: paddle/paddle_mock_invalid.json

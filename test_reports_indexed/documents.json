@@ -1,0 +1,691 @@
+[
+  {
+    "document_id": "John_Duncan||5A||1904-06-17_00:00:00",
+    "method": "Mock_Handwriting_Model_v1",
+    "filter_status": "matched",
+    "header": {
+      "schoolyear": "1904",
+      "Date_of_Record": "1904-06-17 00:00:00",
+      "teacher": "Louise F. Farnham",
+      "school": "John Duncan",
+      "grade": "5A",
+      "semester": "B"
+    },
+    "predicted_row_count": 23,
+    "expected_row_count": 26,
+    "custom_metrics": {},
+    "row_matches": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        21,
+        24
+      ],
+      [
+        22,
+        25
+      ]
+    ],
+    "row_pred_unmatched": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19
+    ],
+    "row_exp_unmatched": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      23
+    ],
+    "tp": 11,
+    "fp": 12,
+    "fn": 15,
+    "precision": 0.4783,
+    "recall": 0.4231,
+    "f1": 0.449,
+    "field_metrics": {
+      "lastname": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "firstname": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "Sex": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "age": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "address": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "town": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "comment": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "days_absent": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "vaccination": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "note": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "Date_Left": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      },
+      "DoB": {
+        "correct": 11,
+        "total": 38,
+        "accuracy": 0.2895
+      }
+    },
+    "cer_metrics": {
+      "lastname": {
+        "char_errors": 199,
+        "total_chars": 270,
+        "cer": 0.737
+      },
+      "firstname": {
+        "char_errors": 222,
+        "total_chars": 310,
+        "cer": 0.7161
+      },
+      "Sex": {
+        "char_errors": 27,
+        "total_chars": 38,
+        "cer": 0.7105
+      },
+      "age": {
+        "char_errors": 54,
+        "total_chars": 76,
+        "cer": 0.7105
+      },
+      "address": {
+        "char_errors": 298,
+        "total_chars": 441,
+        "cer": 0.6757
+      },
+      "town": {
+        "char_errors": 189,
+        "total_chars": 266,
+        "cer": 0.7105
+      },
+      "comment": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "days_absent": {
+        "char_errors": 27,
+        "total_chars": 38,
+        "cer": 0.7105
+      },
+      "vaccination": {
+        "char_errors": 189,
+        "total_chars": 266,
+        "cer": 0.7105
+      },
+      "note": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "Date_Left": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "DoB": {
+        "char_errors": 189,
+        "total_chars": 266,
+        "cer": 0.7105
+      }
+    },
+    "metadata": {
+      "synthetic_test_run": true
+    }
+  },
+  {
+    "document_id": "John_Duncan||5B||1904-06-17_00:00:00",
+    "method": "Mock_Handwriting_Model_v1",
+    "filter_status": "matched",
+    "header": {
+      "schoolyear": "1904",
+      "Date_of_Record": "1904-06-17 00:00:00",
+      "teacher": "Louise F. Farnham",
+      "school": "John Duncan",
+      "grade": "5B",
+      "semester": "B"
+    },
+    "predicted_row_count": 24,
+    "expected_row_count": 24,
+    "custom_metrics": {},
+    "row_matches": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        23,
+        23
+      ]
+    ],
+    "row_pred_unmatched": [
+      0,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      16,
+      17,
+      18,
+      21,
+      22
+    ],
+    "row_exp_unmatched": [
+      0,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      17,
+      18,
+      19,
+      22
+    ],
+    "tp": 12,
+    "fp": 12,
+    "fn": 12,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "field_metrics": {
+      "lastname": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "firstname": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "Sex": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "age": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "address": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "town": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "comment": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "days_absent": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "vaccination": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "note": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "Date_Left": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      },
+      "DoB": {
+        "correct": 12,
+        "total": 36,
+        "accuracy": 0.3333
+      }
+    },
+    "cer_metrics": {
+      "lastname": {
+        "char_errors": 179,
+        "total_chars": 265,
+        "cer": 0.6755
+      },
+      "firstname": {
+        "char_errors": 153,
+        "total_chars": 242,
+        "cer": 0.6322
+      },
+      "Sex": {
+        "char_errors": 24,
+        "total_chars": 36,
+        "cer": 0.6667
+      },
+      "age": {
+        "char_errors": 48,
+        "total_chars": 71,
+        "cer": 0.6761
+      },
+      "address": {
+        "char_errors": 254,
+        "total_chars": 400,
+        "cer": 0.635
+      },
+      "town": {
+        "char_errors": 168,
+        "total_chars": 252,
+        "cer": 0.6667
+      },
+      "comment": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "days_absent": {
+        "char_errors": 24,
+        "total_chars": 36,
+        "cer": 0.6667
+      },
+      "vaccination": {
+        "char_errors": 168,
+        "total_chars": 252,
+        "cer": 0.6667
+      },
+      "note": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "Date_Left": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "DoB": {
+        "char_errors": 168,
+        "total_chars": 252,
+        "cer": 0.6667
+      }
+    },
+    "metadata": {
+      "synthetic_test_run": true
+    }
+  },
+  {
+    "document_id": "John_Duncan||1A||1906-02-02_00:00:00",
+    "method": "Mock_Handwriting_Model_v1",
+    "filter_status": "matched",
+    "header": {
+      "schoolyear": "1906",
+      "Date_of_Record": "1906-02-02 00:00:00",
+      "teacher": "Elizabeth Ashmun",
+      "school": "John Duncan",
+      "grade": "1A",
+      "semester": "A"
+    },
+    "predicted_row_count": 46,
+    "expected_row_count": 25,
+    "custom_metrics": {},
+    "row_matches": [
+      [
+        2,
+        1
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        22,
+        21
+      ],
+      [
+        25,
+        24
+      ]
+    ],
+    "row_pred_unmatched": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "row_exp_unmatched": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23
+    ],
+    "tp": 5,
+    "fp": 41,
+    "fn": 20,
+    "precision": 0.1087,
+    "recall": 0.2,
+    "f1": 0.1408,
+    "field_metrics": {
+      "lastname": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "firstname": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "Sex": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "age": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "address": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "town": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "comment": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "days_absent": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "vaccination": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "note": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "Date_Left": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      },
+      "DoB": {
+        "correct": 5,
+        "total": 66,
+        "accuracy": 0.0758
+      }
+    },
+    "cer_metrics": {
+      "lastname": {
+        "char_errors": 425,
+        "total_chars": 452,
+        "cer": 0.9403
+      },
+      "firstname": {
+        "char_errors": 358,
+        "total_chars": 387,
+        "cer": 0.9251
+      },
+      "Sex": {
+        "char_errors": 61,
+        "total_chars": 66,
+        "cer": 0.9242
+      },
+      "age": {
+        "char_errors": 61,
+        "total_chars": 68,
+        "cer": 0.8971
+      },
+      "address": {
+        "char_errors": 710,
+        "total_chars": 769,
+        "cer": 0.9233
+      },
+      "town": {
+        "char_errors": 427,
+        "total_chars": 462,
+        "cer": 0.9242
+      },
+      "comment": {
+        "char_errors": 32,
+        "total_chars": 32,
+        "cer": 1.0
+      },
+      "days_absent": {
+        "char_errors": 137,
+        "total_chars": 142,
+        "cer": 0.9648
+      },
+      "vaccination": {
+        "char_errors": 79,
+        "total_chars": 84,
+        "cer": 0.9405
+      },
+      "note": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "Date_Left": {
+        "char_errors": 0,
+        "total_chars": 0,
+        "cer": 0.0
+      },
+      "DoB": {
+        "char_errors": 427,
+        "total_chars": 462,
+        "cer": 0.9242
+      }
+    },
+    "metadata": {
+      "synthetic_test_run": true
+    }
+  }
+]

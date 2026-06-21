@@ -1,0 +1,52 @@
+{
+  "document_count": 3,
+  "predicted_rows": 98,
+  "expected_rows": 75,
+  "filter_status_counts": {
+    "matched": 3
+  },
+  "tp": 75,
+  "fp": 23,
+  "fn": 0,
+  "precision": 0.7653,
+  "recall": 1.0,
+  "f1": 0.8671,
+  "field_accuracy": {
+    "lastname": 0.7653,
+    "firstname": 0.7653,
+    "Sex": 0.7653,
+    "age": 0.7653,
+    "address": 0.7653,
+    "town": 0.7653,
+    "comment": 0.7653,
+    "days_absent": 0.7653,
+    "vaccination": 0.7653,
+    "note": 0.7653,
+    "Date_Left": 0.7653,
+    "DoB": 0.7653
+  },
+  "methods": {
+    "Perfect_Ground_Truth_Baseline": {
+      "tp": 75,
+      "fp": 23,
+      "fn": 0,
+      "precision": 0.7653,
+      "recall": 1.0,
+      "f1": 0.8671,
+      "field_accuracy": {
+        "lastname": 0.7653,
+        "firstname": 0.7653,
+        "Sex": 0.7653,
+        "age": 0.7653,
+        "address": 0.7653,
+        "town": 0.7653,
+        "comment": 0.7653,
+        "days_absent": 0.7653,
+        "vaccination": 0.7653,
+        "note": 0.7653,
+        "Date_Left": 0.7653,
+        "DoB": 0.7653
+      }
+    }
+  }
+}
