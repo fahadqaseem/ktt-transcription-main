@@ -1,0 +1,99 @@
+person_id,school,grade,teacher,lastname,firstname,Sex,age,address,town,Date_of_Record,schoolyear,semester,comment,days_absent,vaccination,note,Date_Left,DoB,unique_id
+row_0,john duncan,5a,louise f. farnham,adams,mathew,m,11,417 kearsarge,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_0
+row_1,john duncan,5a,louise f. farnham,anderson,edward st. c.,m,11,102 first,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_1
+row_2,john duncan,5a,louise f. farnham,anderson,jennie c.,f,12,102 first,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_2
+row_3,john duncan,5a,louise f. farnham,baggiore,joseph a.,m,14,103 hecla,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_3
+row_4,john duncan,5a,louise f. farnham,blanchette,benjamin e.,m,12,pewabic st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_4
+row_5,john duncan,5a,louise f. farnham,borchgrevink,theodore b.,m,12,117 tamarack,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_5
+row_6,john duncan,5a,louise f. farnham,cappello,"louis a,",m,12,first st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_6
+row_7,john duncan,5a,louise f. farnham,dahl,einar f.,m,11,129 tamarack,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_7
+row_8,john duncan,5a,louise f. farnham,daugharty,pembrock w.,m,13,146 second,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_8
+row_9,john duncan,5a,louise f. farnham,errickson,benjamin,m,10,448 kearsarge,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_9
+row_10,john duncan,5a,louise f. farnham,gries,walter f.,m,11,ahmeek st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_10
+row_11,john duncan,5a,louise f. farnham,hillie,edward v.,m,11,farm on lake linden rd.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_11
+row_12,john duncan,5a,louise f. farnham,james,myrtle,f,11,39 woodland ave.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_12
+row_13,john duncan,5a,louise f. farnham,lajoie,raweol j.,u,12,312 lake linden ave.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_13
+row_14,john duncan,5a,louise f. farnham,lejon,edwin,m,13,210 seneca,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_14
+row_15,john duncan,5a,louise f. farnham,michaelson,mary,f,13,unknown,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_15
+row_16,john duncan,5a,louise f. farnham,moder,frances g.,f,11,first st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_16
+row_17,john duncan,5a,louise f. farnham,nasi,edith,f,12,boundary st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_17
+row_18,john duncan,5a,louise f. farnham,pascoe,percy,m,11,221 pewabic,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_18
+row_19,john duncan,5a,louise f. farnham,picchiottino,angelo a.,m,10,216 ahmeek st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_19
+row_20,john duncan,5a,louise f. farnham,raley,austin c.,m,12,1314 ahmeek st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_20
+row_21,john duncan,5a,louise f. farnham,ristell,arthur,m,13,iroquois st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_21
+row_22,john duncan,5a,louise f. farnham,rolando,mary c.,f,12,109 kearsarge,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_22
+row_23,john duncan,5a,louise f. farnham,spence,catherine s.,f,11,corner 7th & boundary,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_23
+row_24,john duncan,5a,louise f. farnham,swanson,earl g.,m,11,boundary,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_24
+row_25,john duncan,5a,louise f. farnham,wearne,thelma c.,f,10,332 kearsarge,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_25
+row_26,john duncan,5b,louise f. farnham,crothers,lottie,f,11,302 boundary,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_26
+row_26,john duncan,5b,louise f. farnham,crothers,william g.,m,9,302 boundary,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_27
+row_28,john duncan,5b,louise f. farnham,curnow,charles,m,12,533 florida,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_28
+row_29,john duncan,5b,louise f. farnham,gallassero,james,m,12,221 tamarack,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_29
+row_30,john duncan,5b,louise f. farnham,gipp,mary g.,f,11,432 hecla,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_30
+row_31,john duncan,5b,louise f. farnham,guettle,violet,f,14,florida,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_31
+row_32,john duncan,5b,louise f. farnham,heikka,linda m.,f,10,iroquois st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_32
+row_33,john duncan,5b,louise f. farnham,hoatson,margaret a.,f,10,pewabic st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_33
+row_34,john duncan,5b,louise f. farnham,johnson,selma u,f,13,236 florida,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_34
+row_35,john duncan,5b,louise f. farnham,karinen,ella,f,11,416 iroquois,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_35
+row_36,john duncan,5b,louise f. farnham,korteniemi,julia a,f,11,449 tamarack,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_36
+row_37,john duncan,5b,louise f. farnham,larson,charles j.,m,12,iroquois st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_37
+row_38,john duncan,5b,louise f. farnham,laukka,emma l.,f,12,520 tamarack,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_38
+row_39,john duncan,5b,louise f. farnham,lenten,jessie,f,11,florida,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_39
+row_40,john duncan,5b,louise f. farnham,morcom,lena,f,11,310 lake linden ave.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_40
+row_41,john duncan,5b,louise f. farnham,nankervis,charles,m,13,seneca st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_41
+row_42,john duncan,5b,louise f. farnham,norbom,harriet c.,f,11,504 iroquois,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_42
+row_43,john duncan,5b,louise f. farnham,palsa,aina l.,f,10,526 pewabic,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_43
+row_44,john duncan,5b,louise f. farnham,peterson,elin v.,f,12,third st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_44
+row_45,john duncan,5b,louise f. farnham,reynolds,mabel,f,12,400 pewabic,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_45
+row_46,john duncan,5b,louise f. farnham,salo,libbie a.,f,10,florida st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_46
+row_47,john duncan,5b,louise f. farnham,skrogstadt,edward,m,12,125 tamarack,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_47
+row_48,john duncan,5b,louise f. farnham,solomonson,mary,f,13,pewabic st.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_48
+row_49,john duncan,5b,louise f. farnham,wennberg,hjalmer c.,m,15,lake linden ave.,laurium,1904-06-17 00:00:00,1904,b,,0.0,unknown,,,unknown,row_49
+row_50,john duncan,1a,elizabeth ashmun,berryman,raymond,m,6,416 tamarack,laurium,1906-02-02 00:00:00,1906,a,,6.0,y,,,unknown,row_50
+row_51,john duncan,1a,elizabeth ashmun,billy,mike,m,10,101 iroquois,laurium,1906-02-02 00:00:00,1906,a,,2.0,y,,,unknown,row_51
+row_51,john duncan,1a,elizabeth ashmun,billy,sadie,f,8,101 iroquois,laurium,1906-02-02 00:00:00,1906,a,,4.5,y,,,unknown,row_52
+row_53,john duncan,1a,elizabeth ashmun,capello,fred,m,7,101 iroquois,laurium,1906-02-02 00:00:00,1906,a,,2.5,y,,,unknown,row_53
+row_54,john duncan,1a,elizabeth ashmun,capello,johnny,m,8,311 first st.,laurium,1906-02-02 00:00:00,1906,a,,0.5,y,,,unknown,row_54
+row_55,john duncan,1a,elizabeth ashmun,cima,palmer,m,7,110 hecla,laurium,1906-02-02 00:00:00,1906,a,,0.5,y,,,unknown,row_55
+row_56,john duncan,1a,elizabeth ashmun,dower,thomas,m,9,131 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,0.5,y,,,unknown,row_56
+row_57,john duncan,1a,elizabeth ashmun,gillies,wallace,m,6,344 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,3.0,y,,,unknown,row_57
+row_58,john duncan,1a,elizabeth ashmun,goyette,walter,m,9,first st.,laurium,1906-02-02 00:00:00,1906,a,,4.0,y,,,unknown,row_58
+row_59,john duncan,1a,elizabeth ashmun,green,roy,m,8,145 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,0.5,y,,,unknown,row_59
+row_60,john duncan,1a,elizabeth ashmun,gustafson,george,m,7,132 florida,laurium,1906-02-02 00:00:00,1906,a,,2.0,y,,,unknown,row_60
+row_61,john duncan,1a,elizabeth ashmun,hoatson,martha,f,7,130 iroquois,laurium,1906-02-02 00:00:00,1906,a,,1.5,y,,,unknown,row_61
+row_62,john duncan,1a,elizabeth ashmun,hunt,mildred,f,6,147 second,laurium,1906-02-02 00:00:00,1906,a,,2.0,y,,,unknown,row_62
+row_63,john duncan,1a,elizabeth ashmun,messner,margaret,f,7,213 tamarack,laurium,1906-02-02 00:00:00,1906,a,,4.5,y,,,unknown,row_63
+row_64,john duncan,1a,elizabeth ashmun,messner,rosie,f,11,213 tamarack,laurium,1906-02-02 00:00:00,1906,a,,1.0,y,,,unknown,row_64
+row_65,john duncan,1a,elizabeth ashmun,monroe,george,m,9,314 isle royale,laurium,1906-02-02 00:00:00,1906,a,,1.5,y,,,unknown,row_65
+row_66,john duncan,1a,elizabeth ashmun,morrison,cathel,m,8,118 seneca,laurium,1906-02-02 00:00:00,1906,a,,1.5,y,,,unknown,row_66
+row_67,john duncan,1a,elizabeth ashmun,mugford,carlotta,f,6,first st.,laurium,1906-02-02 00:00:00,1906,a,,2.5,y,,,unknown,row_67
+row_68,john duncan,1a,elizabeth ashmun,mustonen,charley,m,7,412 iroquois,laurium,1906-02-02 00:00:00,1906,a,left in february,2.0,y,,,unknown,row_68
+row_69,john duncan,1a,elizabeth ashmun,nelson,ruth,f,6,124 pewabic,laurium,1906-02-02 00:00:00,1906,a,,4.0,y,,,unknown,row_69
+row_70,john duncan,1a,elizabeth ashmun,o'brien,gerald,m,7,223 florida,laurium,1906-02-02 00:00:00,1906,a,,4.5,y,,,unknown,row_70
+row_71,john duncan,1a,elizabeth ashmun,passon,selma,f,8,142 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,4.0,y,,,unknown,row_71
+row_72,john duncan,1a,elizabeth ashmun,pearson,wilbur,m,7,334 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,4.0,y,,,unknown,row_72
+row_73,john duncan,1a,elizabeth ashmun,peterson,lydia,f,8,506 third,laurium,1906-02-02 00:00:00,1906,a,,4.5,y,,,unknown,row_73
+row_74,john duncan,1a,elizabeth ashmun,raley,clarence,m,8,132 tamarack,laurium,1906-02-02 00:00:00,1906,a,,5.0,y,,,unknown,row_74
+row_75,john duncan,1a,frances gillette,anderson,emil,m,7,corner 1st & hecla,laurium,1906-02-02 00:00:00,1906,a,,0.0,n,,,unknown,row_75
+row_76,john duncan,1a,frances gillette,angove,earl,m,8,331 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,20.0,n,,,unknown,row_76
+row_77,john duncan,1a,frances gillette,biscomb,irving,m,6,iroquois st.,laurium,1906-02-02 00:00:00,1906,a,,11.5,unknown,,,unknown,row_77
+row_78,john duncan,1a,frances gillette,carlson,hildegarde,f,8,215 florida,laurium,1906-02-02 00:00:00,1906,a,,24.0,n,,,unknown,row_78
+row_79,john duncan,1a,frances gillette,gallesero,mary,f,7,221 tamarack,laurium,1906-02-02 00:00:00,1906,a,,2.0,n,,,unknown,row_79
+row_80,john duncan,1a,frances gillette,hendrickson,mamie,f,6,217 tamarack,laurium,1906-02-02 00:00:00,1906,a,,16.0,y,,,unknown,row_80
+row_81,john duncan,1a,frances gillette,hermanson,ragnhild,m,7,221 florida,laurium,1906-02-02 00:00:00,1906,a,,8.5,y,,,unknown,row_81
+row_82,john duncan,1a,frances gillette,jewell,edward,m,7,pewabic,laurium,1906-02-02 00:00:00,1906,a,,7.0,n,,,unknown,row_82
+row_83,john duncan,1a,frances gillette,johns,joshua,m,7,205 iroquois,laurium,1906-02-02 00:00:00,1906,a,,0.0,n,,,unknown,row_83
+row_84,john duncan,1a,frances gillette,johnson,verner,m,7,143 florida,laurium,1906-02-02 00:00:00,1906,a,,9.5,y,,,unknown,row_84
+row_85,john duncan,1a,frances gillette,king,wilbert,m,7,173 iroquois,laurium,1906-02-02 00:00:00,1906,a,,35.0,n,,,unknown,row_85
+row_86,john duncan,1a,frances gillette,mcgrath,margaret,f,7,325 pewabic,laurium,1906-02-02 00:00:00,1906,a,,19.0,y,,,unknown,row_86
+row_87,john duncan,1a,frances gillette,mcleod,edward,m,7,202 isle royale,laurium,1906-02-02 00:00:00,1906,a,,80.0,y,,,unknown,row_87
+row_88,john duncan,1a,frances gillette,paton,esther,f,7,302 florida,laurium,1906-02-02 00:00:00,1906,a,,23.0,n,,,unknown,row_88
+row_89,john duncan,1a,frances gillette,perenchio,john,m,8,first st.,laurium,1906-02-02 00:00:00,1906,a,,9.0,unknown,,,unknown,row_89
+row_90,john duncan,1a,frances gillette,perrong,lucile,f,6,405 tamarack,laurium,1906-02-02 00:00:00,1906,a,,10.0,n,,,unknown,row_90
+row_91,john duncan,1a,frances gillette,phillips,george,m,unknown,unknown,laurium,1906-02-02 00:00:00,1906,a,moved away,0.0,unknown,,8/16/1906,unknown,row_91
+row_92,john duncan,1a,frances gillette,sellberg,russell,m,6,240 kearsarge,laurium,1906-02-02 00:00:00,1906,a,,15.0,y,,,unknown,row_92
+row_93,john duncan,1a,frances gillette,strolle,carl,m,7,131 iroquois,laurium,1906-02-02 00:00:00,1906,a,,14.5,y,,,unknown,row_93
+row_94,john duncan,1a,frances gillette,trevarrow,florence,f,8,3rd & tamarack,laurium,1906-02-02 00:00:00,1906,a,,32.5,unknown,,,unknown,row_94
+row_95,john duncan,1a,frances gillette,trudeau,albert,m,6,135 iroquois,laurium,1906-02-02 00:00:00,1906,a,,1.5,n,,,unknown,row_95
+row_96,john duncan,1a,frances gillette,ulseth,ole,m,8,224 tamarack,laurium,1906-02-02 00:00:00,1906,a,,0.0,n,,,unknown,row_96
+row_97,john duncan,1a,frances gillette,waters,irene,f,unknown,unknown,laurium,1906-02-02 00:00:00,1906,a,transferred to franklin,0.0,unknown,,,unknown,row_97
