@@ -1,82 +1,52 @@
-from __future__ import annotations
-
-from pathlib import Path
-from typing import Annotated
-
-import pandas as pd
 import typer
+import pandas as pd
+from .engine import DeepLinkageEngine
+from .trainer import DeepLinkageTrainer
+from .config import DeepERConfig
 
-from ktt_ocr_eval.core.artifacts import read_predictions_from_csv
-from ktt_linkage.engine import RecordLinkageEngine
-
-app = typer.Typer(
-    help="Execute probabilistic entity resolution and record linkage.",
-    add_completion=False,
-)
+app = typer.Typer(help="Deep Learning Entity Resolution CLI")
+default_config = DeepERConfig()
 
 
-@app.command(no_args_is_help=True)
+@app.command()
+def train(
+        dataset_path: str = typer.Option(
+            default_config.default_data_path,
+            "--data",
+            help="Path to raw OCR CSV for training"
+        )
+):
+    """Trains a custom Deep Learning model on your specific OCR ground truth data."""
+    df = pd.read_csv(dataset_path)
+    config = DeepERConfig()
+    trainer = DeepLinkageTrainer(config)
+    trainer.train_on_data(df)
+
+
+@app.command()
 def link(
-        predictions: Annotated[
-            Path,
-            typer.Option(
-                "--predictions", "-p",
-                help="Target CSV file output generated from OCR execution or ground truth table."
-            )
-        ],
-        out: Annotated[
-            Path,
-            typer.Option(
-                "--out", "-o",
-                help="Output target directory where the linked entity matrices are exported."
-            )
-        ],
-        threshold: Annotated[
-            float,
-            typer.Option(
-                "--threshold", "-t",
-                help="Match probability threshold (0.0 to 1.0) for clustering identities."
-            )
-        ] = 0.85,
-        memory: Annotated[
-            int,
-            typer.Option(
-                "--memory", "-m",
-                help="DuckDB memory limit restriction in GB to prevent out-of-memory crashes."
-            )
-        ] = 8,
-) -> None:
-    """Executes the Splink probabilistic linkage matrix across records."""
-    if not predictions.is_file():
-        raise typer.BadParameter(f"CSV file missing or unreadable at: {predictions}")
+        predictions_path: str = typer.Option(
+            default_config.default_data_path,
+            "--predictions",
+            help="Path to OCR CSV/JSON"
+        ),
+        out_dir: str = typer.Option("outputs/", "--out", help="Output directory"),
+        use_custom_model: bool = typer.Option(False, "--custom", help="Use the custom trained model")
+):
+    """Links records together using FAISS and Vector Embeddings."""
+    df = pd.read_csv(predictions_path)
 
-    typer.echo(f"[*] Ingesting processing file: {predictions.name}")
+    config = DeepERConfig(distance_threshold=0.15)
 
-    # Inspect CSV header to determine ingestion route
-    df_preview = pd.read_csv(predictions, nrows=2)
+    if use_custom_model:
+        config.model_name = config.custom_model_out_path
 
-    if "document_id" in df_preview.columns and "method" in df_preview.columns:
-        typer.echo("[*] Parsing structured OCR predictions format...")
-        input_data = read_predictions_from_csv(predictions)
-    else:
-        typer.echo("[*] Detected direct ground truth/tabular dataset. Reading CSV directly...")
-        input_data = pd.read_csv(predictions)
+    engine = DeepLinkageEngine(config)
+    linked_df = engine.run_pipeline(df)
 
-    typer.echo(f"[*] Initializing Linkage Engine (Threshold: {threshold}, Memory: {memory}GB)...")
-    engine = RecordLinkageEngine(
-        match_threshold=threshold,
-        memory_limit_gb=memory
-    )
-
-    typer.echo("[*] Aligning entity matrices via probabilistic EM algorithms...")
-    linked_df = engine.run_linkage(input_data)
-
-    out.mkdir(parents=True, exist_ok=True)
-    output_file = out / "linked_records.csv"
-    linked_df.to_csv(output_file, index=False)
-
-    typer.secho(f"[+] Linkage execution complete! Entity log exported to: {output_file}",
-                fg=typer.colors.GREEN)
+    out_file = f"{out_dir}/deep_linked_records.csv"
+    linked_df.to_csv(out_file, index=False)
+    typer.secho(f"Success! Linked data saved to {out_file}", fg=typer.colors.GREEN)
 
 
 if __name__ == "__main__":
