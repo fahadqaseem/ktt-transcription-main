@@ -1,94 +1,143 @@
-import pandas as pd
+# engine.py
 import numpy as np
-import faiss
+import pandas as pd
 import networkx as nx
+import faiss
 from sentence_transformers import SentenceTransformer
 from .config import DeepERConfig
+from .schema import flatten_record
 
 
 class DeepLinkageEngine:
     def __init__(self, config: DeepERConfig):
         self.config = config
-        print(f"Loading Neural Network: {self.config.model_name}")
-        self.model = SentenceTransformer(self.config.model_name)
+        self.graph = nx.Graph()
+        self.model = None
 
-    def _flatten_schema(self, df: pd.DataFrame) -> list[str]:
-        """Flatten record key-value pairs into structured text sentences for transformer input."""
-        sentences = []
-        # Columns to ignore during string serialization if they exist
-        ignore_cols = {"id", "person_id", "ground_truth_id", "cluster_id"}
+    def load_model(self, model_path: str = None):
+        """Loads fine-tuned historical embedding model."""
+        path = model_path or self.config.custom_model_out_path
+        print(f"Loading inference embedding model from: {path}")
+        self.model = SentenceTransformer(path)
 
-        for _, row in df.iterrows():
-            record_parts = []
-            for col, val in row.items():
-                if col.lower() not in ignore_cols and pd.notna(val):
-                    record_parts.append(f"{col}: {val}")
-            sentence = " | ".join(record_parts)
-            sentences.append(sentence)
+    def encode_records(self, df: pd.DataFrame) -> np.ndarray:
+        """Serializes rows via shared schema.py and embeds them into 384d vectors."""
+        if self.model is None:
+            self.load_model()
+        print("Flattening master records via standardized schema...")
+        sentences = [flatten_record(row) for _, row in df.fillna("").iterrows()]
 
-        return sentences
-
-    def _encode_records(self, sentences: list[str]) -> np.ndarray:
-        """Encodes text representations into normalized vector embeddings."""
-        print("Vectorizing records...")
+        print(f"Encoding {len(sentences)} records into dense vectors...")
         embeddings = self.model.encode(
-            sentences,
-            batch_size=32,
-            show_progress_bar=True,
-            normalize_embeddings=True,
+            sentences, show_progress_bar=True, convert_to_numpy=True
         )
-        return embeddings.astype("float32")
+        return embeddings
 
-    def _build_faiss_index(self, embeddings: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
-        """Builds a FAISS index and performs K-Nearest Neighbor search."""
-        print("Building FAISS index for high-speed blocking...")
-        dimension = embeddings.shape[1]
+    def build_candidate_graph(self, df: pd.DataFrame, embeddings: np.ndarray):
+        """
+        Builds weighted candidate graph using FAISS IndexFlatIP (Cosine Similarity).
+        """
+        print("Building FAISS candidate index...")
+        num_records, dim = embeddings.shape
 
-        # Inner Product index (equivalent to Cosine Similarity when embeddings are L2 normalized)
-        index = faiss.IndexFlatIP(dimension)
+        faiss.normalize_L2(embeddings)
+        index = faiss.IndexFlatIP(dim)
         index.add(embeddings)
 
-        # Search for top-K neighbors
-        # Convert similarity score (1.0 = identical) to Cosine Distance (0.0 = identical)
-        similarities, indices = index.search(embeddings, self.config.top_k)
-        distances = 1.0 - similarities
+        top_k = self.config.top_k_neighbors
+        print(
+            f"Searching top-{top_k} nearest neighbors for {num_records} records..."
+        )
+        similarities, indices = index.search(embeddings, k=top_k)
 
-        return distances, indices
+        self.graph.clear()
+        for idx in range(num_records):
+            self.graph.add_node(idx, record_id=df.index[idx])
 
-    def _cluster_entities(
-        self, df: pd.DataFrame, distances: np.ndarray, indices: np.ndarray
-    ) -> pd.DataFrame:
-        """Constructs an adjacency graph from FAISS matches and applies connected component clustering."""
-        print("Clustering graph components...")
-        G = nx.Graph()
+        edge_count = 0
+        for i in range(num_records):
+            for j_rank in range(1, top_k):
+                j = indices[i, j_rank]
+                sim = float(similarities[i, j_rank])
 
-        # Add a node for every record row index
-        for i in range(len(df)):
-            G.add_node(i)
+                if sim >= self.config.similarity_threshold and i < j:
+                    self.graph.add_edge(i, j, weight=sim)
+                    edge_count += 1
 
-        # Connect nodes with edges if distance <= threshold
-        for i in range(len(df)):
-            for dist, neighbor_idx in zip(distances[i], indices[i]):
-                if neighbor_idx != -1 and neighbor_idx != i:
-                    if dist <= self.config.distance_threshold:
-                        G.add_edge(i, neighbor_idx, weight=float(dist))
+        print(
+            f"Candidate graph constructed: {num_records} nodes, {edge_count} weighted edges."
+        )
 
-        # Output DataFrame setup with explicit object/string dtype initialization
-        output_df = df.copy()
-        output_df["person_id"] = "unclustered"
+    def _prune_open_triangles(self):
+        """
+        Bridge-Pruning Guardrail:
+        In any path A - B - C where edge (A, C) does not exist,
+        drop the weaker of (A, B) or (B, C) if its weight is near threshold boundary.
+        """
+        edges_to_remove = set()
+        for node_b in self.graph.nodes():
+            neighbors = list(self.graph.neighbors(node_b))
+            if len(neighbors) < 2:
+                continue
 
-        # Assign cluster labels based on connected components
-        for cluster_id, component in enumerate(nx.connected_components(G)):
-            cluster_name = f"cluster_{cluster_id}"
-            for node in component:
-                output_df.at[node, "person_id"] = cluster_name
+            for i in range(len(neighbors)):
+                for j in range(i + 1, len(neighbors)):
+                    node_a, node_c = neighbors[i], neighbors[j]
 
-        return output_df
+                    if not self.graph.has_edge(node_a, node_c):
+                        w_ab = self.graph[node_a][node_b]["weight"]
+                        w_bc = self.graph[node_b][node_c]["weight"]
 
-    def run_pipeline(self, input_df: pd.DataFrame) -> pd.DataFrame:
-        """Executes full entity linkage end-to-end."""
-        sentences = self._flatten_schema(input_df)
-        embeddings = self._encode_records(sentences)
-        distances, indices = self._build_faiss_index(embeddings)
-        linked_df = self._cluster_entities(input_df, distances, indices)
-        return linked_df
+                        weaker_edge = (
+                            (node_a, node_b) if w_ab < w_bc else (node_b, node_c)
+                        )
+                        min_weight = min(w_ab, w_bc)
+
+                        if min_weight < (
+                            self.config.similarity_threshold + 0.04
+                        ):
+                            edges_to_remove.add(weaker_edge)
+
+        if edges_to_remove:
+            print(
+                f"✂️ Severing {len(edges_to_remove)} unclosed bridge edges to prevent chaining..."
+            )
+            self.graph.remove_edges_from(edges_to_remove)
+
+    def resolve_entities(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Assigns person_id clusters using Weighted Louvain Modularity Optimization.
+        """
+        if self.config.prune_weak_bridges:
+            self._prune_open_triangles()
+
+        print(
+            f"Running Louvain community detection (resolution={self.config.louvain_resolution})..."
+        )
+        communities = nx.community.louvain_communities(
+            self.graph,
+            weight="weight",
+            resolution=self.config.louvain_resolution,
+            seed=42,
+        )
+
+        person_id_map = {}
+        for cluster_id, node_set in enumerate(communities, start=1):
+            for node_idx in node_set:
+                person_id_map[node_idx] = f"PID_{cluster_id:06d}"
+
+        result_df = df.copy()
+        result_df["person_id"] = [
+            person_id_map.get(idx, f"PID_UNLINKED_{idx}")
+            for idx in range(len(result_df))
+        ]
+
+        num_clusters = len(communities)
+        multi_record_clusters = sum(1 for c in communities if len(c) > 1)
+        print(
+            f"✅ Resolved {len(df)} records into {num_clusters} distinct entities."
+        )
+        print(
+            f"   ({multi_record_clusters} entities span multiple historical years)"
+        )
+        return result_df
