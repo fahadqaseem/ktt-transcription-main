@@ -1,8 +1,7 @@
 # engine.py
 import numpy as np
 import pandas as pd
-import networkx as nx
-import faiss
+ import faiss
 from sentence_transformers import SentenceTransformer
 from .config import DeepERConfig
 from .schema import flatten_record
@@ -141,3 +140,5 @@ class DeepLinkageEngine:
             f"   ({multi_record_clusters} entities span multiple historical years)"
         )
         return result_df
+
+    
